@@ -30,7 +30,7 @@ Você pode visualizar o layout do projeto através [desse link](https://www.figm
 
 ## Como Executar
 ```bash
-git clone https://github.com/WerterBonfim/NLW5-React-Native-Plant-Manager.git plant-mananger
+git clone https://github.com/LizandraBonfim//NLW-ReactNative-05.git plant-manager
 
 
 cd plant-mananger
