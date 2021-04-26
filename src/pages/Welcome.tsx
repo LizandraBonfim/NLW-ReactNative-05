@@ -10,6 +10,7 @@ import {
 } from "react-native";
 import { useNavigation } from "@react-navigation/core";
 import { Feather } from "@expo/vector-icons";
+
 import watering from "../assets/watering.png";
 import colors from "../styles/colors";
 import fonts from "../styles/fonts";
@@ -29,7 +30,6 @@ export function Welcome() {
           forma fácil
         </Text>
         <Image source={watering} style={styles.image} resizeMode="contain" />
-        {/* <StatusBar style="auto" /> */}
 
         <Text style={styles.subtitle}>
           Não esqueça mais de regar suas plantas. Nós cuidamos de lembrar você

@@ -1,12 +1,13 @@
-import { Feather } from "@expo/vector-icons";
 import React from "react";
 import { Text, StyleSheet, View, Animated } from "react-native";
+import { Feather } from "@expo/vector-icons";
 import {
   RectButton,
   RectButtonProps,
   Swipeable,
 } from "react-native-gesture-handler";
 import { SvgFromUri } from "react-native-svg";
+
 import colors from "../styles/colors";
 import fonts from "../styles/fonts";
 

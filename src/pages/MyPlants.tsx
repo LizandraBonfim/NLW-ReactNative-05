@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { StyleSheet, Text, View, Image, FlatList } from "react-native";
+import { StyleSheet, Text, View, Image, FlatList, Alert } from "react-native";
 import { formatDistance } from "date-fns/esm";
 import { pt } from "date-fns/locale";
 
@@ -10,7 +10,6 @@ import { loadPlant, PlantProps, removePlant } from "../libs/storage";
 import fonts from "../styles/fonts";
 import { PlantCardSecondary } from "../components/PlantCardSecondary";
 import { Load } from "../components/Load";
-import { Alert } from "react-native";
 
 export function MyPlants() {
   const [plants, setPlants] = useState<PlantProps[]>([]);
